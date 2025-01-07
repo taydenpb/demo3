@@ -219,16 +219,15 @@ resource "aws_lambda_permission" "apigw" {
 }
 
 
+terraform {
+  backend "remote" {
+    organization = "Sandbox-Development"
 
-# terraform {
-#   backend "remote" {
-#     organization = "Sandbox-Development"
-
-#     workspaces {
-#       name = "corrected-demo"
-#     }
-#   }
-# }
+    workspaces {
+      name = "demo3"
+    }
+  }
+}
 
 
 # terraform {

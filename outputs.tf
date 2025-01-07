@@ -7,8 +7,8 @@ output "api_endpoint" {
   value = "${aws_apigatewayv2_api.api.api_endpoint}/greet"
 }
 
-output "test_vcs" {
-  value = "hopefully this works"
+output "Testing_VCS" {
+  value = "rgnfdkjgndfjkgndks"
 }
 
 output "VCS_workflow" {
